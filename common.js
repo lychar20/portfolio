@@ -72,8 +72,8 @@ function createLi(id, href, textContent, classes = []) {
 
 createLi (1, "index.html", "Accueil", []);
 createLi (2, "apropos.html", "A propos", []);
-createLi (3, "Realisation.html", "Realisation", []);
-createLi (4, "Contact.html", "Contact", []);
+createLi (3, "realisation.html", "Realisation", []);
+createLi (4, "contact.html", "Contact", []);
 
 
 

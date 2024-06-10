@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE portfolio[
+    <!ELEMENT portfolio (projet+)>
+    <!ELEMENT projet (titre, techno, date, detail)>
+    <!ELEMENT titre (#PCDATA)>
+    <!ELEMENT techno (#PCDATA)>
+    <!ELEMENT date (#PCDATA)>
+    <!ELEMENT detail (#PCDATA)>
+
+]>
+
+<portfolio>
+    <projet>
+        <titre>Projet CAP Entreprise</titre>
+        <techno>Spring Boot, Bootstrap</techno>
+        <date>2024</date>
+        <detail>Créer un site de jeu en ligne</detail>
+    </projet>
+
+    <projet>
+        <titre> Création d’une application web</titre>
+        <techno>React</techno>
+        <date>2023</date>
+        <detail>Créer un site web de location d'appartement</detail>
+    </projet>
+
+    <projet>
+        <titre> Construction d’un site E-commerce</titre>
+        <techno> JavaScript</techno>
+        <date>2023</date>
+        <detail>Obtenir les données en faisant un appel à l'API</detail>
+    </projet>
+
+    <projet>
+        <titre> Construction d’un site E-commerce</titre>
+        <techno> JavaScript</techno>
+        <date>2023</date>
+        <detail>Obtenir les données en faisant un appel à l'API</detail>
+    </projet>
+
+    <projet>
+        <titre> Création d’une application web</titre>
+        <techno>React</techno>
+        <date>2023</date>
+        <detail>Créer un site web de location d'appartement</detail>
+    </projet>
+   
+   <projet>
+        <titre>Projet CAP Entreprise</titre>
+        <techno>Spring Boot, Bootstrap</techno>
+        <date>2024</date>
+        <detail>Créer un site de jeu en ligne</detail>
+    </projet>
+
+</portfolio>

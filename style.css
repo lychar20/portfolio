@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#book-list {
+    margin-top: 20px;
+}
+
+.book {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+
+.hide {
+    display: none;
+}
+
+
+/* header */
+
+header {
+    background-color: rgb(27, 17, 5);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    margin-left: 5%;
+}
+
+.label, #toggle {
+    
+    display: none;
+}
+
+.menu {
+    width: 50%;
+    padding-left: 10%;
+    
+}
+
+.menu li {
+    list-style-type: none;
+    margin-right: 5%;
+
+}
+
+.menu ul {
+    display: flex;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+body {
+    background-image: url("https://st5.depositphotos.com/48848154/68843/i/380/depositphotos_688437924-stock-photo-abstract-black-background-grunge-texture.jpg");
+}
+
+/*index*/
+
+#name {
+    color: white;
+    padding-left: 20%;
+    padding-top: 200px;
+}
+
+.lien_git_link {
+    padding-top: 30px;
+    padding-left: 20%;
+    display: flex;
+}
+
+.lin_r {
+    border: 2px solid rgba(220, 50, 169, 0.6);
+    margin-right: 5%;
+    padding: 5px;
+}
+
+.lin_link {
+    text-decoration: none;
+}
+
+
+/* a propos*/
+
+.mon_profil {
+    padding-top: 50px;
+    
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/*mes reéalisation*/
+
+.mes_realisations {
+    padding-top: 30px;
+    color: white;
+    padding-left: 3%;
+    
+}
+
+.mes_realisations h2 {
+    font-size: 36px;
+}
+
+
+/*contact*/
+
+
+
+/*queries*/
+
+@media all and (max-width: 850px)
+{
+    nav
+    {
+        height: 60px;
+    }
+ 
+    .menu ul
+    {
+        display: none;
+        flex-direction: column;
+        background: #48435C;
+        
+    }
+
+    .menu a {
+        width: 50%;
+    }
+
+   
+ 
+    .label 
+    {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+
+    input:checked +  ul {
+        display: flex;
+        z-index: 1000;
+       
+    }
+
+}
